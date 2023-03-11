@@ -1,18 +1,11 @@
 {
   "heading": "Charged Up - 2023",
   "logo": "logo.png",
+  "forceQualifiers": "true",
   "pages": [
     {
       "name": "Setup",
       "widgets": [
-        {
-          "name": "Scouter Name",
-          "type": "text",
-          "validation": {
-            "comparison": "greater",
-            "value": 0
-          }
-        },
         {
           "name": "Starting Position",
           "type": "positions",
@@ -30,7 +23,7 @@
           "col": 2
         },
         {
-          "name": "Scored Game Pieces",
+          "name": "Upper Nodes",
           "type": "togglegrid",
           "prefix": "Auto",
           "width": 9,
@@ -55,7 +48,7 @@
         {
           "name": "Dropped",
           "type": "spinbox",
-          "prefix": "auto"
+          "prefix": "Auto"
         },
         {
           "type": "spacer",
@@ -66,7 +59,7 @@
           "type": "checkbox"
         },
         {
-          "name": "Crossed Charting Station",
+          "name": "Crossed Charging Station",
           "type": "checkbox"
         },
         {
@@ -97,7 +90,7 @@
           "colspan": 3
         },
         {
-          "name": "Scored Game Pieces",
+          "name": "Upper Nodes",
           "type": "togglegrid",
           "colspan": 3,
           "width": 9,
@@ -121,8 +114,7 @@
         },
         {
           "name": "Dropped",
-          "type": "spinbox",
-          "prefix": "auto"
+          "type": "spinbox"
         },
         {
           "name": "Was defended",
