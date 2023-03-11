@@ -56,7 +56,7 @@
           "name": "Dropped",
           "type": "spinbox",
           "prefix": "auto"
-        }
+        },
         {
           "type": "spacer",
           "height": 20
