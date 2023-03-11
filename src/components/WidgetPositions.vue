@@ -55,7 +55,7 @@ function draw() {
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
   // Draw a circle around each selected point
-  ctx.lineWidth = 1;
+  ctx.lineWidth = 2;
   ctx.strokeStyle = props.data.selectColor ?? "#ddd";
   for (const { x, y } of selections) {
     ctx.beginPath();
